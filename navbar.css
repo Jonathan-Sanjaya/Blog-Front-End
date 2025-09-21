@@ -92,6 +92,32 @@ nav .subs {
     background-color: #F08080;
 }
 
+/* Tablet: 900px */
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 80%;
+    }
+    nav input {
+        width: 150px;
+    }
+    header img {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+/* HP: 768px */
 @media (max-width: 768px){
     header{
         flex-direction: column;
@@ -121,5 +147,30 @@ nav .subs {
     }
     .menu li{
         padding: 10px 0;
+    }
+}
+
+/* HP small edition: 480px */
+@media (max-width: 480px) {
+    header img {
+        width: 70px;
+        height: 25px;
+    }
+    nav input {
+        width: 100px;
+        font-size: 12px;
+    }
+    nav button {
+        width: 70px;
+        height: 25px;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    nav ul {
+        width: 100%;
+    }
+    .menu li {
+        padding: 8px 0;
+        font-size: 13px;
     }
 }
